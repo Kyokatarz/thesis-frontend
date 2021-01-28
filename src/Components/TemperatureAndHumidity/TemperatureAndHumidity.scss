@@ -1,0 +1,12 @@
+.TemperatureAndHumidity {
+  width: 80vw;
+  border: 1px solid black;
+  min-height: 20vh;
+  border-radius: 7px;
+  padding: 7px;
+
+  background-color: #e9cba3;
+  & span {
+    font-size: 24px;
+  }
+}

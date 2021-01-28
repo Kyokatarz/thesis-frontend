@@ -1,0 +1,34 @@
+.Home {
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  & h1 {
+    color: #e62253;
+  }
+
+  & h2 {
+    color: #1dcf17;
+  }
+  &__LogSection {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    & div {
+      min-width: 40vw;
+      margin: 5px;
+
+      & textarea {
+        width: 100%;
+        height: 40vh;
+        resize: none;
+        font-size: 16px;
+      }
+    }
+  }
+}

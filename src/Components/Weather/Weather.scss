@@ -1,0 +1,26 @@
+.Weather {
+  margin: 5px;
+  width: 80vw;
+  border: 1px solid black;
+  min-height: 20vh;
+  border-radius: 7px;
+  padding: 7px;
+  background-color: #add4f5;
+  position: relative;
+  overflow: hidden;
+  & p span {
+    font-size: 24px;
+  }
+
+  & h2 span {
+    font-size: 11px;
+  }
+
+  &__WeatherDescribingIcon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: scale(1.5) translate(15%, -15%);
+    opacity: 0.7;
+  }
+}
