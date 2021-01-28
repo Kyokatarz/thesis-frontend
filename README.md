@@ -1,6 +1,6 @@
 #Home Automation System
 
-#####Using Raspberry Pi through Web Application
+Using Raspberry Pi through Web Application
 
 ---
 
